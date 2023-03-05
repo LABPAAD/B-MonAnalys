@@ -19,9 +19,9 @@
 
 .main-content {
     /* Usando */
-    max-width: 120rem;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 8rem var(--gap);
+    padding: 80px var(--gap);
 }
 
 .section {
@@ -31,5 +31,5 @@
 
 .menu-spacing {
     /* Usando */
-    height: 6.5rem;
+    height: 65px;
 }
