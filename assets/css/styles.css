@@ -95,12 +95,6 @@
     border: 4px solid var(--primary-color);
 }
 
-@media (max-width: 450px) {
-    h2 {
-        font-size: 45px;
-    }
-}
-
 @media (max-width: 800px) {
 
     .menu {
@@ -152,5 +146,21 @@
 
     .menu-spacing {
         display: none;
+    }
+}
+
+@media (max-width: 462px) {
+    h2 {
+        font-size: 45px;
+    }
+
+    .footer p a img {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    h2 {
+        font-size: 35px;
     }
 }
