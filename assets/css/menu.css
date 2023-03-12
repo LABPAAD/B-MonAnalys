@@ -6,7 +6,10 @@
     width: 100%;
     z-index: 1;
     border-bottom: 1px solid var(--primary-color);
+    transition: transform 0.3s ease-in-out;
 }
+
+
 
 .menu-content {
     display: flex;
@@ -14,8 +17,9 @@
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
-    transition: all 300ms ease-in-out;
 }
+
+
 
 .menu h1 {
     font-size: 23px;

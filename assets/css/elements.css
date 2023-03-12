@@ -5,9 +5,9 @@
 }
 
 html {
-    /* font-size: 62.5%; */
     font-size: 50%;
     scroll-behavior: smooth;
+
 }
 
 body {
@@ -16,6 +16,24 @@ body {
     color: var(--primary-color);
     line-height: 1.5;
 }
+
+/* Firefox */
+@-moz-document url-prefix() {
+    body {
+        transform: scale(0.85);
+        transform-origin: top;
+        width: 118%;
+        height: 118%;
+        margin-left: -9%;
+        margin-bottom: -100%;
+    }
+}
+
+
+/* #all-content {
+    /*Firefox mais antigo*/
+/* -moz-transform-origin: 100% 100%;
+} */
 
 h1,
 h2,
